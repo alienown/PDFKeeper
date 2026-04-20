@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FileAddToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="FileOpenToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Otwórz</value>
+  </data>
+  <data name="FileSaveToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="FileBurstToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Rozdziel</value>
+  </data>
+  <data name="FileExtractAllAttachmentsToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Wyodrębnij wszystkie załączniki</value>
+  </data>
+  <data name="FileExtractAllEmbeddedFilesToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Wyodrębnij wszystkie osadzone pliki</value>
+  </data>
+  <data name="FileCopyPdfToClipboardToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Kopiuj PDF do schowka</value>
+  </data>
+  <data name="FilePrintToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Drukuj</value>
+  </data>
+  <data name="FileDatabaseNewToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Nowa baza danych</value>
+  </data>
+  <data name="FileDatabaseOpenToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Otwórz bazę danych</value>
+  </data>
+  <data name="EditUndoToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Cofnij</value>
+  </data>
+  <data name="EditCutToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Wytnij</value>
+  </data>
+  <data name="EditCopyToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Kopiuj</value>
+  </data>
+  <data name="EditPasteToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Wklej</value>
+  </data>
+  <data name="EditRestoreToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Przywróć</value>
+  </data>
+  <data name="EditAppendDateTimeToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Dołącz datę/czas</value>
+  </data>
+  <data name="EditAppendTextToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="DocumentsFindToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Znajdź</value>
+  </data>
+  <data name="DocumentsDeleteToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="ToolsOptionsToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Opcje</value>
+  </data>
+  <data name="ToolsUploadProfilesToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Profile przesyłania</value>
+  </data>
+  <data name="HelpContentsToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="FileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Plik</value>
+  </data>
+  <data name="FileToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Nowy</value>
+  </data>
+  <data name="FileAddToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Dodaj...</value>
+  </data>
+  <data name="FileOpenToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Otwórz</value>
+  </data>
+  <data name="FileSaveToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Zapisz</value>
+  </data>
+  <data name="FileSaveAsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Zapisz j&amp;ako...</value>
+  </data>
+  <data name="FileBurstToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Rozdziel...</value>
+  </data>
+  <data name="FileExtractToolStripMenuItem.Text" xml:space="preserve">
+    <value>Wyod&amp;rębnij</value>
+  </data>
+  <data name="FileExtractAllAttachmentsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Wszystkie &amp;załączniki...</value>
+  </data>
+  <data name="FileExtractAllEmbeddedFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Wszystkie &amp;osadzone pliki...</value>
+  </data>
+  <data name="FileCopyPdfToClipboardToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Kopiuj PDF do schowka</value>
+  </data>
+  <data name="FilePrintToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Drukuj...</value>
+  </data>
+  <data name="FilePrintPreviewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Po&amp;dgląd wydruku</value>
+  </data>
+  <data name="FileDatabaseToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Baza danych</value>
+  </data>
+  <data name="FileDatabaseNewToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Nowa...</value>
+  </data>
+  <data name="FileDatabaseOpenToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Otwórz...</value>
+  </data>
+  <data name="FileDatabaseMoveToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Przenieś...</value>
+  </data>
+  <data name="FileExportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ekspor&amp;tuj...</value>
+  </data>
+  <data name="FileExitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Za&amp;kończ</value>
+  </data>
+  <data name="EditToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Edycja</value>
+  </data>
+  <data name="EditUndoToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Cofnij</value>
+  </data>
+  <data name="EditCutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Wy&amp;tnij</value>
+  </data>
+  <data name="EditCopyToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Kopiuj</value>
+  </data>
+  <data name="EditPasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Wkl&amp;ej</value>
+  </data>
+  <data name="EditSelectAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Zaznacz &amp;wszystko</value>
+  </data>
+  <data name="EditRestoreToolStripMenuItem.Text" xml:space="preserve">
+    <value>P&amp;rzywróć</value>
+  </data>
+  <data name="EditAppendDateTimeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dołącz &amp;datę/czas</value>
+  </data>
+  <data name="EditAppendTextToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dołącz &amp;tekst...</value>
+  </data>
+  <data name="EditReplacePdfToolStripMenuItem.Text" xml:space="preserve">
+    <value>Zami&amp;eń PDF...</value>
+  </data>
+  <data name="EditFlagDocumentToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Oflaguj dokument</value>
+  </data>
+  <data name="DocumentsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Dokumenty</value>
+  </data>
+  <data name="DocumentsFindToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Znajdź</value>
+  </data>
+  <data name="DocumentsSelectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Za&amp;znacz</value>
+  </data>
+  <data name="DocumentsSelectAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Wszystko</value>
+  </data>
+  <data name="DocumentsSelectNoneToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Nic</value>
+  </data>
+  <data name="DocumentsSetTitleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ustaw &amp;tytuł...</value>
+  </data>
+  <data name="DocumentsSetAuthorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ustaw &amp;autora...</value>
+  </data>
+  <data name="DocumentsSetSubjectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ustaw &amp;temat...</value>
+  </data>
+  <data name="DocumentsSetCategoryToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ustaw &amp;kategorię...</value>
+  </data>
+  <data name="DocumentsSetTaxYearToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ustaw rok &amp;podatkowy...</value>
+  </data>
+  <data name="DocumentsSetDateTimeAddedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ustaw datę/czas dodan&amp;ia...</value>
+  </data>
+  <data name="DocumentsDeleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Usuń...</value>
+  </data>
+  <data name="ViewToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Widok</value>
+  </data>
+  <data name="ViewSetPreviewPixelDensityToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ustaw gęstość &amp;pikseli podglądu...</value>
+  </data>
+  <data name="ViewToolBarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pasek &amp;narzędzi</value>
+  </data>
+  <data name="ViewStatusBarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pasek &amp;stanu</value>
+  </data>
+  <data name="ToolsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Narzędzia</value>
+  </data>
+  <data name="ToolsOptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Opcje</value>
+  </data>
+  <data name="ToolsUploadProfilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Profile przesyłania</value>
+  </data>
+  <data name="HelpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pomo&amp;c</value>
+  </data>
+  <data name="HelpContentsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Spis treści</value>
+  </data>
+  <data name="HelpAboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;O programie PDFKeeper</value>
+  </data>
+  <data name="DocumentsLabel.Text" xml:space="preserve">
+    <value>Dokumenty:</value>
+  </data>
+  <data name="UploadProgressBar.ToolTipText" xml:space="preserve">
+    <value>Trwa przesyłanie.</value>
+  </data>
+  <data name="FlagImageLabel.ToolTipText" xml:space="preserve">
+    <value>Baza danych zawiera jeden lub więcej oflagowanych dokumentów.</value>
+  </data>
+  <data name="UploadRejectedImageLabel.ToolTipText" xml:space="preserve">
+    <value>Folder UploadRejected zawiera pliki, które nie zostały przesłane. Kliknij ikonę, aby otworzyć folder.</value>
+  </data>
+  <data name="DocumentsDataGridView.ToolTip" xml:space="preserve">
+    <value>Aby wyświetlić dokumenty, rozpocznij wyszukiwanie za pomocą opcji menu „Znajdź" lub przycisku na pasku narzędzi.</value>
+  </data>
+  <data name="NotesTabPage.Text" xml:space="preserve">
+    <value>Notatki</value>
+  </data>
+  <data name="KeywordsTabPage.Text" xml:space="preserve">
+    <value>Słowa kluczowe</value>
+  </data>
+  <data name="TextTabPage.Text" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="SearchTermSnippetsTabPage.Text" xml:space="preserve">
+    <value>Fragmenty wyszukiwania</value>
+  </data>
+  <data name="PreviewTabPage.Text" xml:space="preserve">
+    <value>Podgląd</value>
+  </data>
+</root>

@@ -340,10 +340,19 @@
     <EmbeddedResource Include="Dialogs\AboutBox.resx">
       <DependentUpon>AboutBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\AboutBox.pl.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\OptionsForm.resx">
       <DependentUpon>OptionsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\OptionsForm.pl.resx">
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\PdfOwnerPasswordForm.resx">
+      <DependentUpon>PdfOwnerPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\PdfOwnerPasswordForm.pl.resx">
       <DependentUpon>PdfOwnerPasswordForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\ProgressForm.resx">
@@ -352,10 +361,19 @@
     <EmbeddedResource Include="Dialogs\SetDateTimeAddedForm.resx">
       <DependentUpon>SetDateTimeAddedForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\SetDateTimeAddedForm.pl.resx">
+      <DependentUpon>SetDateTimeAddedForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\SetPreviewPixelDensityForm.resx">
       <DependentUpon>SetPreviewPixelDensityForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\SetPreviewPixelDensityForm.pl.resx">
+      <DependentUpon>SetPreviewPixelDensityForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainForm.pl.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -371,19 +389,37 @@
     <EmbeddedResource Include="UserControls\AuthorDropDownListUserControl.resx">
       <DependentUpon>AuthorDropDownListUserControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\AuthorDropDownListUserControl.pl.resx">
+      <DependentUpon>AuthorDropDownListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\AuthorUserControl.resx">
+      <DependentUpon>AuthorUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\AuthorUserControl.pl.resx">
       <DependentUpon>AuthorUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\CategoryDropDownListUserControl.resx">
       <DependentUpon>CategoryDropDownListUserControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\CategoryDropDownListUserControl.pl.resx">
+      <DependentUpon>CategoryDropDownListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\CategoryUserControl.resx">
+      <DependentUpon>CategoryUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\CategoryUserControl.pl.resx">
       <DependentUpon>CategoryUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\KeywordsUserControl.resx">
       <DependentUpon>KeywordsUserControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\KeywordsUserControl.pl.resx">
+      <DependentUpon>KeywordsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\NameUserControl.resx">
+      <DependentUpon>NameUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\NameUserControl.pl.resx">
       <DependentUpon>NameUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\SearchTermUserControl.resx">
@@ -392,46 +428,91 @@
     <EmbeddedResource Include="UserControls\SubjectDropDownListUserControl.resx">
       <DependentUpon>SubjectDropDownListUserControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SubjectDropDownListUserControl.pl.resx">
+      <DependentUpon>SubjectDropDownListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\SubjectUserControl.resx">
+      <DependentUpon>SubjectUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SubjectUserControl.pl.resx">
       <DependentUpon>SubjectUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\TaxYearDropDownListUserControl.resx">
       <DependentUpon>TaxYearDropDownListUserControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\TaxYearDropDownListUserControl.pl.resx">
+      <DependentUpon>TaxYearDropDownListUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\TitleUserControl.resx">
+      <DependentUpon>TitleUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\TitleUserControl.pl.resx">
       <DependentUpon>TitleUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UploadOptionsUserControl.resx">
       <DependentUpon>UploadOptionsUserControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UploadOptionsUserControl.pl.resx">
+      <DependentUpon>UploadOptionsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\AddPdfForm.resx">
+      <DependentUpon>AddPdfForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AddPdfForm.pl.resx">
       <DependentUpon>AddPdfForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\FindDocumentsForm.resx">
       <DependentUpon>FindDocumentsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\FindDocumentsForm.pl.resx">
+      <DependentUpon>FindDocumentsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LoginForm.pl.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\SetAuthorForm.resx">
       <DependentUpon>SetAuthorForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\SetAuthorForm.pl.resx">
+      <DependentUpon>SetAuthorForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\SetCategoryForm.resx">
+      <DependentUpon>SetCategoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SetCategoryForm.pl.resx">
       <DependentUpon>SetCategoryForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\SetSubjectForm.resx">
       <DependentUpon>SetSubjectForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\SetSubjectForm.pl.resx">
+      <DependentUpon>SetSubjectForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\SetTaxYearForm.resx">
+      <DependentUpon>SetTaxYearForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SetTaxYearForm.pl.resx">
       <DependentUpon>SetTaxYearForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\SetTitleForm.resx">
       <DependentUpon>SetTitleForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\SetTitleForm.pl.resx">
+      <DependentUpon>SetTitleForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\UploadProfileEditorForm.resx">
       <DependentUpon>UploadProfileEditorForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\UploadProfileEditorForm.pl.resx">
+      <DependentUpon>UploadProfileEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\UploadProfilesForm.resx">
+      <DependentUpon>UploadProfilesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UploadProfilesForm.pl.resx">
       <DependentUpon>UploadProfilesForm.cs</DependentUpon>
     </EmbeddedResource>
     <Content Include="..\Help\PDFKeeper.en-US.chm">

@@ -73,6 +73,7 @@
 			<ComponentGroupRef Id="ru_files" />
 			<ComponentGroupRef Id="zh_Hans_files" />
 			<ComponentGroupRef Id="zh_Hant_files" />
+			<ComponentGroupRef Id="pl_files" />
 		</Feature>
 		
 		<Component Id="ApplicationDesktopShortcut"
@@ -119,6 +120,7 @@
                 <Directory Id="it" Name="it" />
                 <Directory Id="ja" Name="ja" />
                 <Directory Id="ko" Name="ko" />
+                <Directory Id="pl" Name="pl" />
                 <Directory Id="pt_BR" Name="pt-BR" />
                 <Directory Id="ru" Name="ru" />
                 <Directory Id="zh_Hans" Name="zh-Hans" />
@@ -812,6 +814,24 @@
 				<File Id="zh_Hant_Microsoft.Data.SqlClient.resources.dll"
 					  Name="Microsoft.Data.SqlClient.resources.dll"
 					  Source="$(var.PDFKeeper.WinForms_TargetDir)zh-Hant\Microsoft.Data.SqlClient.resources.dll" />
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="pl_files"
+						Directory="pl">
+			<Component Id="pl_Microsoft.Data.SqlClient.resources.dll"
+					   Guid="b8a3e5c1-7f42-4d19-a6b3-9e1c5d8f2a07">
+				<File Id="pl_Microsoft.Data.SqlClient.resources.dll"
+					  Name="Microsoft.Data.SqlClient.resources.dll"
+					  Source="$(var.PDFKeeper.WinForms_TargetDir)pl\Microsoft.Data.SqlClient.resources.dll" />
+			</Component>
+			<Component Id="pl_PDFKeeper.resources.dll"
+					   Guid="c9b4f6d2-8053-4e2a-b7c4-0f2d6e9a3b18">
+				<File Id="pl_PDFKeeper.resources.dll"
+					  Name="PDFKeeper.resources.dll"
+					  Source="$(var.PDFKeeper.WinForms_TargetDir)pl\PDFKeeper.resources.dll" />
 			</Component>
 		</ComponentGroup>
 	</Fragment>
